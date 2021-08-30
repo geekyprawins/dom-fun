@@ -18,4 +18,4 @@ fs.mkdir("dir1", function () {
 
 fs.unlink("./dir1/writeMePls.txt", function () {
   fs.rmdir("dir1");
-});
+}); 
